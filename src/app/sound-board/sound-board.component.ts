@@ -52,12 +52,6 @@ export class SoundBoardComponent implements OnInit {
       emoji: '☔',
     },
     {
-      name: 'Sad Piano',
-      audio: new Audio(this.soundLocation + 'sad-piano.mp3'),
-      icon: 'piano',
-      emoji: '😥',
-    },
-    {
       name: 'Fart and Vomit',
       audio: new Audio(this.soundLocation + 'fart-and-vomit.mp3'),
       icon: 'air',
@@ -92,6 +86,18 @@ export class SoundBoardComponent implements OnInit {
       audio: new Audio(this.soundLocation + 'romantic.mp3'),
       icon: 'heart',
       emoji: '💖',
+    },
+    {
+      name: 'Cam Girl',
+      audio: new Audio(this.soundLocation + 'cam-girl.mp3'),
+      icon: 'camera',
+      emoji: '👧',
+    },
+    {
+      name: 'Lonely Man (Hulk)',
+      audio: new Audio(this.soundLocation + 'lonely-man.mp3'),
+      icon: 'piano',
+      emoji: '😥',
     },
   ];
 
