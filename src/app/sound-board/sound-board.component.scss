@@ -1,0 +1,38 @@
+.sound-container {
+  padding: 10px;
+}
+
+.sound-item {
+  height: 10em;
+  width: 10em;
+  margin: 5px;
+  padding: 5px;
+
+  background-color: white;
+  border: none;
+
+  cursor: pointer;
+
+  .sound-name {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+.mat-icon {
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 3.2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .sound-item {
+    height: 7em;
+    width: 7em;
+  }
+  .mat-icon {
+    width: 1.1em;
+    height: 1.1em;
+    font-size: 3em;
+  }
+}

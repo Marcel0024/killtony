@@ -1,0 +1,21 @@
+<div fxLayout="row" class="w-100">
+  <div fxFlex.gt-sm="20%" fxFlex="0%" class="w-100 h-100"></div>
+  <div
+    fxFlex="auto"
+    class="w-100 h-100 sound-container"
+    fxLayout="row wrap"
+    fxLayoutAlign="center"
+  >
+    <button
+      *ngFor="let sound of sounds"
+      class="mat-elevation-z2 sound-item w-100 h-100"
+      fxLayout="column"
+      fxLayoutAlign="space-around center"
+      (click)="playSound(sound.name)"
+    >
+      <span class="sound-name">{{ sound.name }}</span>
+      <mat-icon>{{ sound.icon }}</mat-icon>
+    </button>
+  </div>
+  <div fxFlex.gt-sm="20%" fxFlex="0%" class="w-100 h-100"></div>
+</div>
