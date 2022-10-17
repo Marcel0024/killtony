@@ -82,7 +82,7 @@ export class SoundBoardComponent implements OnInit {
       emoji: '🔫',
     },
     {
-      name: 'Romantic',
+      name: 'Careless Whisper',
       audio: new Audio(this.soundLocation + 'romantic.mp3'),
       icon: 'heart',
       emoji: '💖',
@@ -110,6 +110,12 @@ export class SoundBoardComponent implements OnInit {
       audio: new Audio(this.soundLocation + 'cherry-pie.mp3'),
       icon: 'fruit',
       emoji: '🍒',
+    },
+    {
+      name: 'Baby Crying',
+      audio: new Audio(this.soundLocation + 'baby-crying.mp3'),
+      icon: 'fruit',
+      emoji: '👶',
     },
   ];
 
