@@ -40,7 +40,7 @@ export class SoundBoardComponent implements OnInit {
       emoji: '📯',
     },
     {
-      name: 'Horn Fail 2x',
+      name: 'Horn Price is Right ',
       audio: new Audio(this.soundLocation + 'horn-fail-2.mp3'),
       icon: 'trending_down',
       emoji: '📯',
@@ -99,10 +99,24 @@ export class SoundBoardComponent implements OnInit {
       icon: 'piano',
       emoji: '😥',
     },
+    {
+      name: 'Horn Clown',
+      audio: new Audio(this.soundLocation + 'horn-clown.mp3'),
+      icon: 'circle',
+      emoji: '🤡',
+    },
   ];
 
   ngOnInit(): void {
     this.sounds.sort(nameCompare);
+
+    for (const sound of this.sounds) {
+      sound.audio.load();
+
+      if (sound.name === 'Cam Girl') {
+        sound.audio.volume = 0.7;
+      }
+    }
   }
 
   playSound(audioName: string): void {
