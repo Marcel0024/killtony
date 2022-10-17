@@ -105,6 +105,12 @@ export class SoundBoardComponent implements OnInit {
       icon: 'circle',
       emoji: '🤡',
     },
+    {
+      name: "She's my Cherry Pie",
+      audio: new Audio(this.soundLocation + 'cherry-pie.mp3'),
+      icon: 'fruit',
+      emoji: '🍒',
+    },
   ];
 
   ngOnInit(): void {
