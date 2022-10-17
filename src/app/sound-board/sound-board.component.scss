@@ -23,20 +23,12 @@
   }
 }
 
-.mat-icon {
-  width: 1.2em;
-  height: 1.2em;
-  font-size: 3.2em;
-}
-
 @media only screen and (max-width: 600px) {
   .sound-item {
     height: 7em;
     width: 7em;
-  }
-  .mat-icon {
-    width: 1.1em;
-    height: 1.1em;
-    font-size: 3em;
+    .emoji {
+      font-size: 2.7em;
+    }
   }
 }
