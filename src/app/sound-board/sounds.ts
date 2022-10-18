@@ -103,4 +103,9 @@ export const sounds: SoundFile[] = [
     audio: new Audio(soundLocation + 'flipper.mp3'),
     emoji: '🐬',
   },
+  {
+    name: 'Harry Potter',
+    audio: new Audio(soundLocation + 'harry-potter.mp3'),
+    emoji: '🧙‍♂️',
+  },
 ];
