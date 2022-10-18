@@ -74,7 +74,7 @@ export const sounds: SoundFile[] = [
     emoji: '👧',
   },
   {
-    name: 'Lonely Man (Hulk)',
+    name: 'Lonely Man',
     audio: new Audio(soundLocation + 'lonely-man.mp3'),
     emoji: '😥',
   },

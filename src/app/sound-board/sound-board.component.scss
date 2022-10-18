@@ -3,7 +3,7 @@
 }
 
 .sound-item {
-  height: 10em;
+  height: 8em;
   width: 10em;
   margin: 5px;
   padding: 5px;
@@ -19,16 +19,20 @@
     font-weight: 600;
   }
   .emoji {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .sound-item {
-    height: 7em;
+    height: 6em;
     width: 7em;
+    .sound-name {
+      font-size: large;
+      font-weight: 600;
+    }
     .emoji {
-      font-size: 2em;
+      font-size: 1.5em;
     }
   }
 }
