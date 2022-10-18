@@ -98,4 +98,9 @@ export const sounds: SoundFile[] = [
     audio: new Audio(soundLocation + 'sheep.mp3'),
     emoji: '🐑',
   },
+  {
+    name: 'Flipper',
+    audio: new Audio(soundLocation + 'flipper.mp3'),
+    emoji: '🐬',
+  },
 ];
